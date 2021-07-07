@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C144E2BF25E00C0F00648576 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C144E2BE25E00C0F00648576 /* AppDelegate.swift */; };
+		C144E2C225E00C0F00648576 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C144E2C025E00C0F00648576 /* Main.storyboard */; };
+		C144E2C425E00C0F00648576 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C144E2C325E00C0F00648576 /* ViewController.swift */; };
+		C144E2C625E00C1000648576 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C144E2C525E00C1000648576 /* Assets.xcassets */; };
+		C144E2CD25E00C1000648576 /* Don't Fuck With Paste Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C144E2CC25E00C1000648576 /* Don't Fuck With Paste Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C144E2D225E00C1000648576 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C144E2D125E00C1000648576 /* Cocoa.framework */; };
+		C144E2D525E00C1000648576 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C144E2D425E00C1000648576 /* SafariWebExtensionHandler.swift */; };
+		C144E2F925E00C1000648576 /* Don't Fuck With Paste in Resources */ = {isa = PBXBuildFile; fileRef = C144E2E225E00C1000648576 /* Don't Fuck With Paste */; };
+		C144E2FA25E00C1000648576 /* LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = C144E2E325E00C1000648576 /* LICENSE.md */; };
+		C144E2FB25E00C1000648576 /* clipboard-inactive-48.png in Resources */ = {isa = PBXBuildFile; fileRef = C144E2E425E00C1000648576 /* clipboard-inactive-48.png */; };
+		C144E2FC25E00C1000648576 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = C144E2E525E00C1000648576 /* popup.js */; };
+		C144E2FD25E00C1000648576 /* test in Resources */ = {isa = PBXBuildFile; fileRef = C144E2E625E00C1000648576 /* test */; };
+		C144E2FE25E00C1000648576 /* clipboard-active-48.png in Resources */ = {isa = PBXBuildFile; fileRef = C144E2E725E00C1000648576 /* clipboard-active-48.png */; };
+		C144E2FF25E00C1000648576 /* styles.css in Resources */ = {isa = PBXBuildFile; fileRef = C144E2E825E00C1000648576 /* styles.css */; };
+		C144E30025E00C1000648576 /* CHANGELOG.md in Resources */ = {isa = PBXBuildFile; fileRef = C144E2E925E00C1000648576 /* CHANGELOG.md */; };
+		C144E30125E00C1000648576 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = C144E2EA25E00C1000648576 /* background.js */; };
+		C144E30225E00C1000648576 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = C144E2EB25E00C1000648576 /* popup.html */; };
+		C144E30325E00C1000648576 /* options.js in Resources */ = {isa = PBXBuildFile; fileRef = C144E2EC25E00C1000648576 /* options.js */; };
+		C144E30425E00C1000648576 /* clipboard-inactive-128.png in Resources */ = {isa = PBXBuildFile; fileRef = C144E2ED25E00C1000648576 /* clipboard-inactive-128.png */; };
+		C144E30525E00C1000648576 /* clipboard-active.png in Resources */ = {isa = PBXBuildFile; fileRef = C144E2EE25E00C1000648576 /* clipboard-active.png */; };
+		C144E30625E00C1000648576 /* dfwp.js in Resources */ = {isa = PBXBuildFile; fileRef = C144E2EF25E00C1000648576 /* dfwp.js */; };
+		C144E30725E00C1000648576 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = C144E2F025E00C1000648576 /* README.md */; };
+		C144E30825E00C1000648576 /* clipboard-active-128.png in Resources */ = {isa = PBXBuildFile; fileRef = C144E2F125E00C1000648576 /* clipboard-active-128.png */; };
+		C144E30925E00C1000648576 /* clipboard-active-32.png in Resources */ = {isa = PBXBuildFile; fileRef = C144E2F225E00C1000648576 /* clipboard-active-32.png */; };
+		C144E30A25E00C1000648576 /* clipboard-inactive-32.png in Resources */ = {isa = PBXBuildFile; fileRef = C144E2F325E00C1000648576 /* clipboard-inactive-32.png */; };
+		C144E30B25E00C1000648576 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = C144E2F425E00C1000648576 /* manifest.json */; };
+		C144E30C25E00C1000648576 /* options.html in Resources */ = {isa = PBXBuildFile; fileRef = C144E2F525E00C1000648576 /* options.html */; };
+		C144E30D25E00C1000648576 /* clipboard-inactive.png in Resources */ = {isa = PBXBuildFile; fileRef = C144E2F625E00C1000648576 /* clipboard-inactive.png */; };
+		C144E30E25E00C1000648576 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = C144E2F725E00C1000648576 /* content.js */; };
+		C144E30F25E00C1000648576 /* dialog-example.png in Resources */ = {isa = PBXBuildFile; fileRef = C144E2F825E00C1000648576 /* dialog-example.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C144E2CE25E00C1000648576 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C144E2B225E00C0F00648576 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C144E2CB25E00C1000648576;
+			remoteInfo = "Don't Fuck With Paste Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C144E2DD25E00C1000648576 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C144E2CD25E00C1000648576 /* Don't Fuck With Paste Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C144E2BA25E00C0F00648576 /* Don't Fuck With Paste.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Don't Fuck With Paste.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C144E2BD25E00C0F00648576 /* Don_t_Fuck_With_Paste.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Don_t_Fuck_With_Paste.entitlements; sourceTree = "<group>"; };
+		C144E2BE25E00C0F00648576 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C144E2C125E00C0F00648576 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C144E2C325E00C0F00648576 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C144E2C525E00C1000648576 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C144E2C725E00C1000648576 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C144E2CC25E00C1000648576 /* Don't Fuck With Paste Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Don't Fuck With Paste Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C144E2D125E00C1000648576 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		C144E2D425E00C1000648576 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		C144E2D625E00C1000648576 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C144E2D725E00C1000648576 /* Don_t_Fuck_With_Paste_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Don_t_Fuck_With_Paste_Extension.entitlements; sourceTree = "<group>"; };
+		C144E2E225E00C1000648576 /* Don't Fuck With Paste */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Don't Fuck With Paste"; sourceTree = SOURCE_ROOT; };
+		C144E2E325E00C1000648576 /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = LICENSE.md; path = ../../LICENSE.md; sourceTree = "<group>"; };
+		C144E2E425E00C1000648576 /* clipboard-inactive-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "clipboard-inactive-48.png"; path = "../../clipboard-inactive-48.png"; sourceTree = "<group>"; };
+		C144E2E525E00C1000648576 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = popup.js; path = ../../popup.js; sourceTree = "<group>"; };
+		C144E2E625E00C1000648576 /* test */ = {isa = PBXFileReference; lastKnownFileType = folder; name = test; path = ../../test; sourceTree = "<group>"; };
+		C144E2E725E00C1000648576 /* clipboard-active-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "clipboard-active-48.png"; path = "../../clipboard-active-48.png"; sourceTree = "<group>"; };
+		C144E2E825E00C1000648576 /* styles.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = styles.css; path = ../../styles.css; sourceTree = "<group>"; };
+		C144E2E925E00C1000648576 /* CHANGELOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = CHANGELOG.md; path = ../../CHANGELOG.md; sourceTree = "<group>"; };
+		C144E2EA25E00C1000648576 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = background.js; path = ../../background.js; sourceTree = "<group>"; };
+		C144E2EB25E00C1000648576 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = popup.html; path = ../../popup.html; sourceTree = "<group>"; };
+		C144E2EC25E00C1000648576 /* options.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = options.js; path = ../../options.js; sourceTree = "<group>"; };
+		C144E2ED25E00C1000648576 /* clipboard-inactive-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "clipboard-inactive-128.png"; path = "../../clipboard-inactive-128.png"; sourceTree = "<group>"; };
+		C144E2EE25E00C1000648576 /* clipboard-active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "clipboard-active.png"; path = "../../clipboard-active.png"; sourceTree = "<group>"; };
+		C144E2EF25E00C1000648576 /* dfwp.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = dfwp.js; path = ../../dfwp.js; sourceTree = "<group>"; };
+		C144E2F025E00C1000648576 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
+		C144E2F125E00C1000648576 /* clipboard-active-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "clipboard-active-128.png"; path = "../../clipboard-active-128.png"; sourceTree = "<group>"; };
+		C144E2F225E00C1000648576 /* clipboard-active-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "clipboard-active-32.png"; path = "../../clipboard-active-32.png"; sourceTree = "<group>"; };
+		C144E2F325E00C1000648576 /* clipboard-inactive-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "clipboard-inactive-32.png"; path = "../../clipboard-inactive-32.png"; sourceTree = "<group>"; };
+		C144E2F425E00C1000648576 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = ../../manifest.json; sourceTree = "<group>"; };
+		C144E2F525E00C1000648576 /* options.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = options.html; path = ../../options.html; sourceTree = "<group>"; };
+		C144E2F625E00C1000648576 /* clipboard-inactive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "clipboard-inactive.png"; path = "../../clipboard-inactive.png"; sourceTree = "<group>"; };
+		C144E2F725E00C1000648576 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = content.js; path = ../../content.js; sourceTree = "<group>"; };
+		C144E2F825E00C1000648576 /* dialog-example.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "dialog-example.png"; path = "../../dialog-example.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C144E2B725E00C0F00648576 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C144E2C925E00C1000648576 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C144E2D225E00C1000648576 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C144E2B125E00C0F00648576 = {
+			isa = PBXGroup;
+			children = (
+				C144E2BC25E00C0F00648576 /* Don't Fuck With Paste */,
+				C144E2D325E00C1000648576 /* Don't Fuck With Paste Extension */,
+				C144E2D025E00C1000648576 /* Frameworks */,
+				C144E2BB25E00C0F00648576 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C144E2BB25E00C0F00648576 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C144E2BA25E00C0F00648576 /* Don't Fuck With Paste.app */,
+				C144E2CC25E00C1000648576 /* Don't Fuck With Paste Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C144E2BC25E00C0F00648576 /* Don't Fuck With Paste */ = {
+			isa = PBXGroup;
+			children = (
+				C144E2BD25E00C0F00648576 /* Don_t_Fuck_With_Paste.entitlements */,
+				C144E2BE25E00C0F00648576 /* AppDelegate.swift */,
+				C144E2C025E00C0F00648576 /* Main.storyboard */,
+				C144E2C325E00C0F00648576 /* ViewController.swift */,
+				C144E2C525E00C1000648576 /* Assets.xcassets */,
+				C144E2C725E00C1000648576 /* Info.plist */,
+			);
+			path = "Don't Fuck With Paste";
+			sourceTree = "<group>";
+		};
+		C144E2D025E00C1000648576 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C144E2D125E00C1000648576 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C144E2D325E00C1000648576 /* Don't Fuck With Paste Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C144E2E125E00C1000648576 /* Resources */,
+				C144E2D425E00C1000648576 /* SafariWebExtensionHandler.swift */,
+				C144E2D625E00C1000648576 /* Info.plist */,
+				C144E2D725E00C1000648576 /* Don_t_Fuck_With_Paste_Extension.entitlements */,
+			);
+			path = "Don't Fuck With Paste Extension";
+			sourceTree = "<group>";
+		};
+		C144E2E125E00C1000648576 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C144E2E225E00C1000648576 /* Don't Fuck With Paste */,
+				C144E2E325E00C1000648576 /* LICENSE.md */,
+				C144E2E425E00C1000648576 /* clipboard-inactive-48.png */,
+				C144E2E525E00C1000648576 /* popup.js */,
+				C144E2E625E00C1000648576 /* test */,
+				C144E2E725E00C1000648576 /* clipboard-active-48.png */,
+				C144E2E825E00C1000648576 /* styles.css */,
+				C144E2E925E00C1000648576 /* CHANGELOG.md */,
+				C144E2EA25E00C1000648576 /* background.js */,
+				C144E2EB25E00C1000648576 /* popup.html */,
+				C144E2EC25E00C1000648576 /* options.js */,
+				C144E2ED25E00C1000648576 /* clipboard-inactive-128.png */,
+				C144E2EE25E00C1000648576 /* clipboard-active.png */,
+				C144E2EF25E00C1000648576 /* dfwp.js */,
+				C144E2F025E00C1000648576 /* README.md */,
+				C144E2F125E00C1000648576 /* clipboard-active-128.png */,
+				C144E2F225E00C1000648576 /* clipboard-active-32.png */,
+				C144E2F325E00C1000648576 /* clipboard-inactive-32.png */,
+				C144E2F425E00C1000648576 /* manifest.json */,
+				C144E2F525E00C1000648576 /* options.html */,
+				C144E2F625E00C1000648576 /* clipboard-inactive.png */,
+				C144E2F725E00C1000648576 /* content.js */,
+				C144E2F825E00C1000648576 /* dialog-example.png */,
+			);
+			name = Resources;
+			path = "Don't Fuck With Paste Extension";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C144E2B925E00C0F00648576 /* Don't Fuck With Paste */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C144E2DE25E00C1000648576 /* Build configuration list for PBXNativeTarget "Don't Fuck With Paste" */;
+			buildPhases = (
+				C144E2B625E00C0F00648576 /* Sources */,
+				C144E2B725E00C0F00648576 /* Frameworks */,
+				C144E2B825E00C0F00648576 /* Resources */,
+				C144E2DD25E00C1000648576 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C144E2CF25E00C1000648576 /* PBXTargetDependency */,
+			);
+			name = "Don't Fuck With Paste";
+			productName = "Don't Fuck With Paste";
+			productReference = C144E2BA25E00C0F00648576 /* Don't Fuck With Paste.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C144E2CB25E00C1000648576 /* Don't Fuck With Paste Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C144E2DA25E00C1000648576 /* Build configuration list for PBXNativeTarget "Don't Fuck With Paste Extension" */;
+			buildPhases = (
+				C144E2C825E00C1000648576 /* Sources */,
+				C144E2C925E00C1000648576 /* Frameworks */,
+				C144E2CA25E00C1000648576 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Don't Fuck With Paste Extension";
+			productName = "Don't Fuck With Paste Extension";
+			productReference = C144E2CC25E00C1000648576 /* Don't Fuck With Paste Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C144E2B225E00C0F00648576 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					C144E2B925E00C0F00648576 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					C144E2CB25E00C1000648576 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = C144E2B525E00C0F00648576 /* Build configuration list for PBXProject "Don't Fuck With Paste" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C144E2B125E00C0F00648576;
+			productRefGroup = C144E2BB25E00C0F00648576 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C144E2B925E00C0F00648576 /* Don't Fuck With Paste */,
+				C144E2CB25E00C1000648576 /* Don't Fuck With Paste Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C144E2B825E00C0F00648576 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C144E2C625E00C1000648576 /* Assets.xcassets in Resources */,
+				C144E2C225E00C0F00648576 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C144E2CA25E00C1000648576 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C144E2FA25E00C1000648576 /* LICENSE.md in Resources */,
+				C144E30425E00C1000648576 /* clipboard-inactive-128.png in Resources */,
+				C144E30225E00C1000648576 /* popup.html in Resources */,
+				C144E2FD25E00C1000648576 /* test in Resources */,
+				C144E30325E00C1000648576 /* options.js in Resources */,
+				C144E30525E00C1000648576 /* clipboard-active.png in Resources */,
+				C144E30B25E00C1000648576 /* manifest.json in Resources */,
+				C144E30C25E00C1000648576 /* options.html in Resources */,
+				C144E2FE25E00C1000648576 /* clipboard-active-48.png in Resources */,
+				C144E30025E00C1000648576 /* CHANGELOG.md in Resources */,
+				C144E30D25E00C1000648576 /* clipboard-inactive.png in Resources */,
+				C144E30125E00C1000648576 /* background.js in Resources */,
+				C144E30E25E00C1000648576 /* content.js in Resources */,
+				C144E30625E00C1000648576 /* dfwp.js in Resources */,
+				C144E30A25E00C1000648576 /* clipboard-inactive-32.png in Resources */,
+				C144E2FB25E00C1000648576 /* clipboard-inactive-48.png in Resources */,
+				C144E30925E00C1000648576 /* clipboard-active-32.png in Resources */,
+				C144E2F925E00C1000648576 /* Don't Fuck With Paste in Resources */,
+				C144E30825E00C1000648576 /* clipboard-active-128.png in Resources */,
+				C144E30725E00C1000648576 /* README.md in Resources */,
+				C144E2FC25E00C1000648576 /* popup.js in Resources */,
+				C144E30F25E00C1000648576 /* dialog-example.png in Resources */,
+				C144E2FF25E00C1000648576 /* styles.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C144E2B625E00C0F00648576 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C144E2C425E00C0F00648576 /* ViewController.swift in Sources */,
+				C144E2BF25E00C0F00648576 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C144E2C825E00C1000648576 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C144E2D525E00C1000648576 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C144E2CF25E00C1000648576 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C144E2CB25E00C1000648576 /* Don't Fuck With Paste Extension */;
+			targetProxy = C144E2CE25E00C1000648576 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C144E2C025E00C0F00648576 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C144E2C125E00C0F00648576 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C144E2D825E00C1000648576 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C144E2D925E00C1000648576 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		C144E2DB25E00C1000648576 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Don't Fuck With Paste Extension/Don_t_Fuck_With_Paste_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3Y983SC85M;
+				INFOPLIST_FILE = "Don't Fuck With Paste Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.Don-t-Fuck-With-Paste.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C144E2DC25E00C1000648576 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Don't Fuck With Paste Extension/Don_t_Fuck_With_Paste_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3Y983SC85M;
+				INFOPLIST_FILE = "Don't Fuck With Paste Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.Don-t-Fuck-With-Paste.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C144E2DF25E00C1000648576 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Don't Fuck With Paste/Don_t_Fuck_With_Paste.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3Y983SC85M;
+				INFOPLIST_FILE = "Don't Fuck With Paste/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.Don-t-Fuck-With-Paste";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C144E2E025E00C1000648576 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Don't Fuck With Paste/Don_t_Fuck_With_Paste.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3Y983SC85M;
+				INFOPLIST_FILE = "Don't Fuck With Paste/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.Don-t-Fuck-With-Paste";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C144E2B525E00C0F00648576 /* Build configuration list for PBXProject "Don't Fuck With Paste" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C144E2D825E00C1000648576 /* Debug */,
+				C144E2D925E00C1000648576 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C144E2DA25E00C1000648576 /* Build configuration list for PBXNativeTarget "Don't Fuck With Paste Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C144E2DB25E00C1000648576 /* Debug */,
+				C144E2DC25E00C1000648576 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C144E2DE25E00C1000648576 /* Build configuration list for PBXNativeTarget "Don't Fuck With Paste" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C144E2DF25E00C1000648576 /* Debug */,
+				C144E2E025E00C1000648576 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C144E2B225E00C0F00648576 /* Project object */;
+}
